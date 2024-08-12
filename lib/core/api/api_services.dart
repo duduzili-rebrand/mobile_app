@@ -42,3 +42,4 @@ abstract class ApiServices {
       toggleCommunityMemberShip(CommunityData data);
   Future<Either<Failure, ApiResponse<CommunityData>>> communityDashboard(String data);
 }
+

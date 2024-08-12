@@ -271,7 +271,7 @@ class ProfileView extends StatelessWidget implements ProfileViewContract {
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(4.r),
                                   ),
-                                  primary: AppColors.primaryColor,
+                                  backgroundColor: AppColors.primaryColor,
                                   side: const BorderSide(
                                     color: AppColors.primaryColor,
                                   ),
@@ -303,7 +303,7 @@ class ProfileView extends StatelessWidget implements ProfileViewContract {
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(4.r),
                                   ),
-                                  primary: AppColors.primaryColor,
+                                  backgroundColor: AppColors.primaryColor,
                                   side: const BorderSide(
                                     color: AppColors.primaryColor,
                                   ),
