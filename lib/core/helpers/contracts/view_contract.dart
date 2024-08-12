@@ -1,4 +1,3 @@
-
 // import '../../../utils/helper.dart';
 
 // abstract class BaseViewContract {

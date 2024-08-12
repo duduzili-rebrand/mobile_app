@@ -6,8 +6,8 @@ class CreatedCommunityState with _$CreatedCommunityState {
 
   const factory CreatedCommunityState.initial() = _Initial;
   const factory CreatedCommunityState.loading() = _Loading;
-  const factory CreatedCommunityState.createdCommunitySuccess({required List<CommunityData> data}) =
-      _CreatedCommunitySuccess;
-  const factory CreatedCommunityState.createdCommunityError({required String error}) =
-      _CreatedCommunityError;
+  const factory CreatedCommunityState.createdCommunitySuccess(
+      {required List<CommunityData> data}) = _CreatedCommunitySuccess;
+  const factory CreatedCommunityState.createdCommunityError(
+      {required String error}) = _CreatedCommunityError;
 }

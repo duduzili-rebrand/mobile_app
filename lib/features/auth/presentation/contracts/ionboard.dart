@@ -9,9 +9,9 @@ abstract class OnboardControllerContract {
 
   late List<String> svgAsset;
 
-  late List<String> title ;
+  late List<String> title;
 
-  late List<String> subTitle ;
+  late List<String> subTitle;
 
   onChangePercentHandler() {}
 }

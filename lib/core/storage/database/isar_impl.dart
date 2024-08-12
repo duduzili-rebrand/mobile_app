@@ -37,10 +37,13 @@ class IsarImpl implements DatabaseStorage {
       await ContactInfoRepository().getObjects();
 
   @override
-  Future<Either<Failure, List<CountryData>>> getAllCountryFromDb()async => await CountryRepository().getAllObjects();
+  Future<Either<Failure, List<CountryData>>> getAllCountryFromDb() async =>
+      await CountryRepository().getAllObjects();
 
   @override
-  Future<Either<Failure, void>> saveAllCountryToDb(List<CountryData> data) async => await CountryRepository().createMultipleObjects(data);
+  Future<Either<Failure, void>> saveAllCountryToDb(
+          List<CountryData> data) async =>
+      await CountryRepository().createMultipleObjects(data);
 
   // @override
   // Future<List<String>> getAllSecurities() {

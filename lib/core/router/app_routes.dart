@@ -6,7 +6,7 @@ class AppRouter {
   static final GoRouter router = GoRouter(
     navigatorKey: GlobalVariables.mainNavigatorKey,
     debugLogDiagnostics: kDebugMode,
-    // initialLocation:
+    // initialLocation: '/${RouteConstants.home}',
     // AppInitializer.firstTime == null ? OnboardingScreen.route : null,
     observers: [
       if (kDebugMode) GoRouterObserver(),

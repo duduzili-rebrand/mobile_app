@@ -10,7 +10,6 @@ abstract class SetupUsernameControllerContract {
   //Methods
   void onFetchDefaultUsernameHandler();
   void onValidateUsername();
-  
 }
 
 abstract class SetupUsernameViewContract extends BaseViewContract {

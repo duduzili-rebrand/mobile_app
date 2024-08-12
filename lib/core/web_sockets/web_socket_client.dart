@@ -1,6 +1,3 @@
-
-
-
 import 'package:web_socket_client/web_socket_client.dart';
 
 import 'iweb_socket.dart';
@@ -28,7 +25,6 @@ class WebSocketClient implements IWebSocket {
     socket = WebSocket(Uri.parse(url));
     if (connectParams != null) {
       socket.connection.listen((event) {
-        
         if (event == Connected()) connectParams();
       });
     }

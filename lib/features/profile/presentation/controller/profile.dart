@@ -1,5 +1,3 @@
-
-
 import '../../../../core/helpers/helpers.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -36,9 +34,7 @@ class ProfileController extends State<ProfileScreen>
     initializeBlocs();
   }
 
-  initializeBlocs() {
-    
-  }
+  initializeBlocs() {}
 
   @override
   void dispose() {

@@ -7,7 +7,8 @@ class YourProfileScreen extends StatefulWidget {
   State<YourProfileScreen> createState() => YourProfileController();
 }
 
-class YourProfileController extends State<YourProfileScreen> with SingleTickerProviderStateMixin
+class YourProfileController extends State<YourProfileScreen>
+    with SingleTickerProviderStateMixin
     implements YourProfileControllerContract {
   late YourProfileViewContract view;
 
@@ -29,7 +30,7 @@ class YourProfileController extends State<YourProfileScreen> with SingleTickerPr
   void initState() {
     super.initState();
     view = YourProfileView(controller: this);
-     tabController = TabController(length: 4, vsync: this);
+    tabController = TabController(length: 4, vsync: this);
   }
 
   @override

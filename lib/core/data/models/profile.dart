@@ -18,7 +18,7 @@ class ProfileData {
   String? gender;
   String? maritalStatus;
   String? dateOfBirth;
-  
+
   String? city;
   String? email;
   String? alternativeEmail;
@@ -88,4 +88,3 @@ class ProfileData {
   String get userFullName =>
       "${firstName?.toString().decrypt() ?? ""} ${lastName?.toString().decrypt() ?? ""}";
 }
-

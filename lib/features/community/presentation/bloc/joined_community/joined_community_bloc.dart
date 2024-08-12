@@ -19,8 +19,8 @@ class JoinedCommunityBloc
     on<_JoinedCommunityEvent>(_onJoinedCommunity);
   }
 
-  _onJoinedCommunity(_JoinedCommunityEvent event,
-      Emitter<JoinedCommunityState> state) async {
+  _onJoinedCommunity(
+      _JoinedCommunityEvent event, Emitter<JoinedCommunityState> state) async {
     try {
       emit(const JoinedCommunityState.loading());
       final response = await repository.joinedCommunity();
@@ -38,8 +38,7 @@ class JoinedCommunityBloc
       });
     } on Failure catch (e) {
       emit(
-        JoinedCommunityState.joinedCommunityError(
-            error: e.failureMessage()),
+        JoinedCommunityState.joinedCommunityError(error: e.failureMessage()),
       );
     } catch (e) {
       emit(

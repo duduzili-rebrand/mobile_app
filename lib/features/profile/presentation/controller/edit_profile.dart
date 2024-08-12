@@ -19,9 +19,7 @@ class EditProfileController extends State<EditProfileScreen>
     initializeBlocs();
   }
 
-  initializeBlocs() {
-    
-  }
+  initializeBlocs() {}
 
   @override
   void dispose() {

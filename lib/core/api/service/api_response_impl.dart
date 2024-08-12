@@ -8,7 +8,8 @@ class ApiResponseImpl<T> implements ApiResponse<T> {
   final int _status_code;
   final bool _success;
 
-  ApiResponseImpl(this._data, this._errors, this._message, this._status_code, this._success);
+  ApiResponseImpl(this._data, this._errors, this._message, this._status_code,
+      this._success);
 
   @override
   T? get data => _data;

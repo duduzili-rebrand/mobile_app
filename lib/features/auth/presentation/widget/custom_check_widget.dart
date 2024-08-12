@@ -1,14 +1,14 @@
 import '../../../../core/core.dart';
 
 class CustomCheckbox extends StatelessWidget {
-
   final bool value;
   final ValueChanged<bool?> onChanged;
 
-  const CustomCheckbox(Key key,{
+  const CustomCheckbox(
+    Key key, {
     required this.value,
     required this.onChanged,
-  }): super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

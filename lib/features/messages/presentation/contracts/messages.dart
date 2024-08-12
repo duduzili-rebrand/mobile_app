@@ -1,6 +1,5 @@
 import '../../../../core/helpers/helpers.dart';
 
-
 abstract class MessagesControllerContract {}
 
 abstract class MessagesViewContract extends BaseViewContract {

@@ -1,4 +1,1 @@
-
-abstract class IDatabase{
-
-}
+abstract class IDatabase {}

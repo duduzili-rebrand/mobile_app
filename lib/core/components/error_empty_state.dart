@@ -1,7 +1,3 @@
-
-
-
-
 import '../helpers/helpers.dart';
 
 class ErrorState extends StatelessWidget {
@@ -54,9 +50,9 @@ class ErrorState extends StatelessWidget {
         //           ),
         //         ),
         //       ).applySize(width: 200, height: 40),
-          //     Spacer(),
-          //   ],
-          // ),
+        //     Spacer(),
+        //   ],
+        // ),
       ],
     );
   }

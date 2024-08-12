@@ -1,5 +1,3 @@
-
-
 import '../helpers/helpers.dart';
 
 class AppBlocObserver extends BlocObserver {

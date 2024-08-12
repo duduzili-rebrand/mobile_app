@@ -12,10 +12,7 @@ abstract class IApiClient {
       MethodType method, T Function(dynamic) fromJson, dynamic params,
       {Map<String, dynamic>? queryParameters});
 
-  Future<Either<Failure, ApiResponse<T>>> multipartRequest<T>(
-    String url,
-    MethodType method,
-    T Function(dynamic) fromJson,
-    dynamic params,{Map<String, dynamic>? queryParameters}
-  );
+  Future<Either<Failure, ApiResponse<T>>> multipartRequest<T>(String url,
+      MethodType method, T Function(dynamic) fromJson, dynamic params,
+      {Map<String, dynamic>? queryParameters});
 }

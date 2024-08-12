@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class AnimatedWaveContainer extends StatefulWidget {
-  const AnimatedWaveContainer({Key? key}): super(key: key);
+  const AnimatedWaveContainer({Key? key}) : super(key: key);
   @override
   AnimatedWaveContainerState createState() => AnimatedWaveContainerState();
 }
@@ -67,7 +67,7 @@ class WaveContainer extends StatelessWidget {
     required this.amplitude,
     required this.frequency,
     required this.child,
-  }):super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

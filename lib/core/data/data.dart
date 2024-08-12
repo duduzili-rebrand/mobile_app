@@ -7,4 +7,3 @@ export 'models/profile.dart';
 export 'models/about_you.dart';
 export 'models/basic_info.dart';
 export 'models/contact_info.dart';
-

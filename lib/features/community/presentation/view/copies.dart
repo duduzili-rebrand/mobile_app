@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../contracts/copy_contract.dart';
 
-class CommunityCopyView extends StatelessWidget implements CommunityCopyViewContract {
+class CommunityCopyView extends StatelessWidget
+    implements CommunityCopyViewContract {
   const CommunityCopyView({
     Key? key,
     required this.controller,

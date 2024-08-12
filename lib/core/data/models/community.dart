@@ -27,7 +27,7 @@ class CommunityData {
       privacy: json['privacy'],
       communityId: json['community_id'],
       membersCount: json['members_count'],
-      membersPhotoPreview: json['members_photo_preview'] == null 
+      membersPhotoPreview: json['members_photo_preview'] == null
           ? null
           : (json['members_photo_preview'] as List)
               .map((item) => item as String)

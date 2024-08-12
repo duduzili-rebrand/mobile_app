@@ -69,8 +69,6 @@ sealed class AuthState with _$AuthState {
   const factory AuthState.recoverAccountError({required String error}) =
       _RecoverAccountError;
   const factory AuthState.logoutLoading() = _LogoutLoading;
-  const factory AuthState.logoutSuccess() =
-      _LogoutSuccess;
-  const factory AuthState.logoutError({required String error}) =
-      _LogoutError;
+  const factory AuthState.logoutSuccess() = _LogoutSuccess;
+  const factory AuthState.logoutError({required String error}) = _LogoutError;
 }

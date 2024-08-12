@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'ihash.dart';
 
-class Sha256 implements IHash{
+class Sha256 implements IHash {
   @override
   String? hash(String? plainText) {
     if (plainText != null && plainText.isNotEmpty) {
@@ -17,7 +17,10 @@ class Sha256 implements IHash{
 
   @override
   String? hashWithKey({String? plainText, String? shaKey}) {
-    if(plainText != null && plainText.isNotEmpty && shaKey != null && shaKey.isNotEmpty){
+    if (plainText != null &&
+        plainText.isNotEmpty &&
+        shaKey != null &&
+        shaKey.isNotEmpty) {
       var key = utf8.encode(shaKey);
       var bytes = utf8.encode(plainText);
 
@@ -28,5 +31,4 @@ class Sha256 implements IHash{
     }
     return plainText;
   }
-  
 }

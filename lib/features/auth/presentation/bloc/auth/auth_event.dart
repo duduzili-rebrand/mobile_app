@@ -13,12 +13,17 @@ sealed class AuthEvent with _$AuthEvent {
   const factory AuthEvent.filterCountry({required String searchText}) =
       _FilterCountry;
   const factory AuthEvent.fetchDefaultUsername() = _DefaultUsername;
-  const factory AuthEvent.validateDefaultUsername({required String query}) = _ValidateUsername;
-  const factory AuthEvent.updateDefaultUsername({required AuthData data}) = _UpdateUsername;
-  const factory AuthEvent.uploadProfilePicture({required File file}) = _UploadProfilePicture;
+  const factory AuthEvent.validateDefaultUsername({required String query}) =
+      _ValidateUsername;
+  const factory AuthEvent.updateDefaultUsername({required AuthData data}) =
+      _UpdateUsername;
+  const factory AuthEvent.uploadProfilePicture({required File file}) =
+      _UploadProfilePicture;
   const factory AuthEvent.fetchPreferenceList() = _PreferenceList;
-  const factory AuthEvent.locationUpdate({required AuthData data}) = _LocationUpdate;
+  const factory AuthEvent.locationUpdate({required AuthData data}) =
+      _LocationUpdate;
   const factory AuthEvent.login({required LoginData data}) = _Login;
-  const factory AuthEvent.recoverAccount({required AuthData data}) = _RecoverAccount;
+  const factory AuthEvent.recoverAccount({required AuthData data}) =
+      _RecoverAccount;
   const factory AuthEvent.logout() = _Logout;
 }

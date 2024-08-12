@@ -1,4 +1,3 @@
-
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import '../helpers/helpers.dart';
 // import 'global_variables.dart';

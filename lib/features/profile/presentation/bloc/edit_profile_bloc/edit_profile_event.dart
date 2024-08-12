@@ -7,6 +7,6 @@ class EditProfileEvent with _$EditProfileEvent {
       _EditAboutYou;
   const factory EditProfileEvent.editBasicInfo({required BasicInfoData data}) =
       _EditBasicInfo;
-  const factory EditProfileEvent.editContactInfo({required ContactInfoData data}) =
-      _EditContactInfo;
+  const factory EditProfileEvent.editContactInfo(
+      {required ContactInfoData data}) = _EditContactInfo;
 }

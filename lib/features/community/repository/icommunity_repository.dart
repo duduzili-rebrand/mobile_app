@@ -14,6 +14,8 @@ abstract class ICommunityRepository {
       {required File file, required String communityId});
   Future<Either<Failure, ApiResponse<List<CommunityData>>>> discoverCommunity();
   Future<Either<Failure, ApiResponse<List<CommunityData>>>> joinedCommunity();
-  Future<Either<Failure, ApiResponse<CommunityData>>> toggleCommunityMembership(CommunityData data);
-  Future<Either<Failure, ApiResponse<CommunityData>>> communityDashboard(String data);
+  Future<Either<Failure, ApiResponse<CommunityData>>> toggleCommunityMembership(
+      CommunityData data);
+  Future<Either<Failure, ApiResponse<CommunityData>>> communityDashboard(
+      String data);
 }

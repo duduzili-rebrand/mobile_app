@@ -38,8 +38,8 @@ abstract class ApiServices {
       File file, String communityId);
   Future<Either<Failure, ApiResponse<List<CommunityData>>>> discoverCommunity();
   Future<Either<Failure, ApiResponse<List<CommunityData>>>> joinedCommunity();
-  Future<Either<Failure, ApiResponse<CommunityData>>>
-      toggleCommunityMemberShip(CommunityData data);
-  Future<Either<Failure, ApiResponse<CommunityData>>> communityDashboard(String data);
+  Future<Either<Failure, ApiResponse<CommunityData>>> toggleCommunityMemberShip(
+      CommunityData data);
+  Future<Either<Failure, ApiResponse<CommunityData>>> communityDashboard(
+      String data);
 }
-

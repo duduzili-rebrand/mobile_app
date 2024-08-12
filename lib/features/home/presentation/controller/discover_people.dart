@@ -14,8 +14,6 @@ class DiscoverPeopleController extends State<DiscoverPeopleScreen>
   @override
   int currentTab = 0;
 
-  
-
   @override
   void initState() {
     super.initState();
